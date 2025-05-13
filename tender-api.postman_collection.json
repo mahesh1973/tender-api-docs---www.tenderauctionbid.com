@@ -1,0 +1,25 @@
+{
+  "info": {
+    "name": "Tender API",
+    "description": "Collection for Tender API endpoints"
+  },
+  "item": [
+    {
+      "name": "Get All Tenders",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-API-Key",
+            "value": "{{api_key}}"
+          }
+        ],
+        "url": {
+          "raw": "https://api.yourwebsite.com/tenders",
+          "host": ["api", "yourwebsite", "com"],
+          "path": ["tenders"]
+        }
+      }
+    }
+  ]
+}
